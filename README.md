@@ -27,15 +27,23 @@
  </ul> 
 
 
-## About the Database Formulation
+## About the Database Formulation & Implementation
+
+### Database Formulation
 (Handled by Nityam & Shantanu)
 - Made a primitive database structure based on data gathered by scraping
 - Identified potential functional dependencies and optimised accordingly to avoid data redundancy. 
 - Followed the rules of formulation to transform the database into BCNF. 
 - Made a final ER diagram of the database.
-- Implemented the database in a MySQL server.
 - Carefully observed the data and found meaningful insights into data which allowed us to quantify the quality as well as quantity of research undertaken by the department.
 - Wrote SQL queries to retrieve the desired information. 
+
+### Database Implementation
+(Handled by Aditya)
+- Used python to clean data collected in parsing step
+- Implemented the database creation and updation steps, using mysql connector the sql_code.ipynb notebook contains functions for creating the entire database(with all relations, constraints and keys built-in).
+- After creating the database, the sql_code.ipynb takes all the scraped data (in form of csv files for each prof), it reads all the data and updates it into the database. The updation is done such that we ensure that all (participation) constraints are held.
+- The notebook is end-to-end code to create the SQL database and read all the scraped data and update it into the database. After this queries can be performed on the database created by the notebook
 
 ## About the Data Retrival
 
