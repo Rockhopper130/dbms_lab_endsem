@@ -1,0 +1,64 @@
+Titles,DOIs
+Lymph-node Detection and Metastasis Classification from CT Images using a Single U-Net Model,DOI:10.1016/j.procs.2022.09.113
+Improvement of Polyp Detection using MUNIT for Image Generation,DOI:10.1016/j.procs.2022.09.076
+Weakly Supervised Learning-based Reconstruction of Planktons in Digital In-line Holography,DOI:10.1007/s11220-022-00379-1
+Hand Detection by Two-Level Segmentation with Double-Tracking and Gesture Recognition Using Deep-Features,DOI:10.1007/s00530-022-00890-1
+A selective region-based detection and tracking approach towards the recognition of dynamic bare hand gesture using deep neural network,DOI:10.3390/jimaging8050124
+Extraction and Calculation of Roadway Area from Satellite Images Using Improved Deep Learning Model and Post-Processing,DOI:10.1007/s11042-021-11570-z
+A curvelet-based multi-sensor image denoising for KLT-based image fusion,DOI:10.1016/j.patrec.2021.12.014
+An unsupervised approach of colonic polyp segmentation using adaptive markov random fields,DOI:10.1109/JSEN.2022.3169963
+Non-Contact Heart Rate Measurement From Facial Video Data Using a 2D-VMD Scheme,DOI:10.1109/ICONAT53423.2022.9725985
+Edge Based Video Clip Searching and Retrieval in Broadcast News Videos,DOI:10.1007/s11760-022-02195-2
+A saliency map-guided shape compactness for segmentation of polyps in colonoscopy images,DOI:10.1111/exsy.12970
+"Design and development of a vision-based system for detection, tracking and recognition of isolated dynamic bare hand gesticulated characters",DOI:10.1016/j.asoc.2021.108122
+Removal of self co-articulation and recognition of dynamic hand gestures using deep architectures,DOI:10.1016/j.eswa.2022.118623
+Development of an intelligent recognition system for dynamic mid-air gesticulation of isolated alphanumeric keys,DOI:10.1109/LSENS.2022.3185181
+Vision-Based Continuous Sign Language Spotting Using Gaussian Hidden Markov Model,DOI:10.1007/s11334-022-00477-z
+Two-stream fusion model using 3D-CNN and 2D-CNN via video-frames and optical flow motion templates for hand gesture recognition,DOI:10.1007/978-3-031-11349-9_38
+Hand Gesture Recognition Using CBAM-RetinaNet,DOI:10.1109/NCC55593.2022.9806776
+Semantic Masking: A Novel Technique to Mitigate the Class-Imbalance Problem in Real-Time Semantic Segmentation,DOI:10.1007/978-3-030-79161-2_7
+Automatic Detection of LST-Type Polyp by CNN Using Depth Map,DOI:10.1109/IIAIAAI55812.2022.00073
+Recovering Shape and Size from a Single Endoscope Image using Optimization,DOI:10.1109/WiSPNET54241.2022.9767186
+A Multiresolution Method for Non-Contact Heart Rate Estimation Using Facial Video Frames,DOI:10.1109/WiSPNET54241.2022.9767161
+Two-Stage Hand Gesture Recognition based on Hand Keypoints Localization,DOI:10.1016/j.bspc.2021.102793
+Analyzing seismocardiographic approach for heart rate variability measurement,DOI:10.1007/978-981-16-1103-2_25
+An Unsupervised Approach for Estimating Depth of Outdoor Scenes from Monocular Image,DOI:10.1007/978-981-16-1103-2_35
+Graph-Based Depth Estimation in a Monocular Image Using Constrained 3D Wireframe Models,DOI:10.1007/s11042-021-10910-3
+A framework for continuous fingerspelling spotting for H.264/AVC compressed videos using spatio-temporal Markov random field,DOI:10.1109/TIM.2021.3082315
+Detection of Polyps in Colonoscopic Videos Using Saliency Map-Based Modified Particle Filter,DOI:10.1109/INCET51464.2021.9456317
+Video searching and retrieval using scene classification in multimedia databases,DOI:10.1109/ACCESS.2021.3092263
+Colonoscopic polyp classification using local shape and texture features,DOI:10.1007/s00371-019-01788-2
+Multi-level uncorrelated discriminative shared Gaussian process for multi-view facial expression recognition,DOI:10.1007/s42979-021-00827-x
+"Methods, Databases and Recent Advancement of Vision-Based Hand Gesture Recognition for HCI Systems: A Review",DOI:10.1109/INDICON52576.2021.9691577
+A Non-Fiducial Noise Robust VMD-based Framework for ECG-based Biometric Recognition,DOI:10.1109/TENCON54134.2021.9707451
+Recognition of isolated characters across different input interfaces using 2D DCNN,DOI:10.1109/ACCESS.2021.3126835
+Extraction of key-frames from endoscopic videos by using depth information,DOI:10.1007/s11042-021-10728-z
+Skin detection in video under uncontrolled illumination,DOI:10.1109/TIM.2020.3007295
+Delineation and Analysis of Seismocardiographic Systole and Diastole Profiles,DOI:10.1007/s42979-021-00544-5
+An Adaptive Thresholding-Based Movement Epenthesis Detection Technique Using Hybrid Feature Set for Continuous Fingerspelling Recognition,DOI:10.1109/TIM.2021.3115203
+Vibrocarotidography: A Novel Measurement Technique to Quantify Pulsations at Common Carotid Arteries,DOI:10.1007/s11042-021-11490-y
+Unsupervised story segmentation and indexing of broadcast news video,DOI:10.1109/JSEN.2020.3025384
+Identification of Human Breathing-States Using Cardiac-Vibrational Signal for m-Health Applications,DOI:10.1109/TIM.2021.3122182
+Noninvasive Accelerometric Approach for Cuffless Continuous Blood Pressure Measurement,DOI:10.1016/j.procs.2021.09.004
+Automatic generation of polyp image using depth map for endoscope dataset,DOI:10.1038/s41598-021-83788-8
+Computational learning of features for automated colonic polyp classification,DOI:10.1049/ipr2.12095
+"Segregation of meaningful strokes, a pre-requisite for self co-articulation removal in isolated dynamic gestures",DOI:10.1109/FG52635.2021.9667034
+Contextual Emotion Learning Challenge,DOI:10.1109/IIAI-AAI50415.2020.00100
+Detection of Lymph Nodes using CNN from Contrast-Enhanced CT Images,DOI:10.1109/IIAI-AAI50415.2020.00099
+Detection of Cell Nuclei using LadderNet,DOI:10.1109/IIAI-AAI50415.2020.00098
+Pore Detection from Human Skin Image using U-Net,DOI:10.1109/NCC48643.2020.9055990
+Semantic segmentation based hand gesture recognition using deep neural networks,DOI:10.1109/JSEN.2019.2944235
+A Novel Method for Aortic Valve Opening Phase Detection Using SCG Signal,DOI:10.1007/s11042-020-09124-w
+Image mosaicking using improved auto-sorting algorithm and local difference-based harris features,DOI:10.1007/s11042-020-08762-4
+Image specific discriminative feature extraction for skin segmentation,DOI:10.1007/978-981-32-9291-8_9
+Zernike Moment and Mutual Information Based Methods for Multimodal Image Registration,DOI:10.1007/978-3-030-25213-7_13
+Mediastinal lymph node detection using deep learning,DOI:10.1109/ASPCON49795.2020.9276725
+Interdependent multi-task learning for simultaneous segmentation and detection,DOI:10.1109/ASPCON49795.2020.9276732
+Classification of cell nuclei using CNN features,DOI:10.1109/ASPCON49795.2020.9276713
+Occlusion Robust Object Tracking with Modified Particle Filter Framework,DOI:10.1109/ASPCON49795.2020.9276714
+Improved Endoscopic Polyp Classification using GAN Generated Synthetic Data Augmentation,DOI:10.1109/ASPCON49795.2020.9276654
+Hand Gesture Localization and Classification by Deep Neural Network for Online Text Entry,DOI:10.1109/WiSPNET48689.2020.9198521
+Deep Network-based Hand Gesture Recognition using Optical Flow guided Trajectory Images,DOI:10.1109/WiSPNET48689.2020.9198533
+Optical Flow guided Motion Template for Hand Gesture Recognition,DOI:10.1109/ComPE49325.2020.9200047
+Low Cost Data Glove for Hand Gesture Recognition by Finger Bend Measurement,DOI:10.1109/ASPCON49795.2020.9276664
+A Novel Global Motion Estimation and Compensation Framework in Compressed Domain for Sign Language Videos,DOI:10.1016/j.procs.2020.09.325
