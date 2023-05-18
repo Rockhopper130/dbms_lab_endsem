@@ -50,10 +50,14 @@
 Parsing Methodology: (Handled by Varun)
 
 - Visit MFSDSAI website to get basic data of all professors
+  - Visited all Faculty pages on the MFSDSAI website to extract faculty the provided faculty details.
 - Search all professors on google scholar
+  - The name of the faculty was used to search the for the corresponding Google Scholar pages, allowing us to automate the updation process.   
 - Extract basic data from google scholar profile
+  - Extracted all available data on the Scholar profiles including research interests/ domains, yearwise and total citation counts, h-index, i10-index, etc.
 - Visit the link of each paper and extract publication information and basic details
 - Filled the null value gaps from IEEE/IRINS
+  - Any missing data from the initial scraping pipeline is recovered from IEEE/IRINS along with DOI data as well as Co-Author Networks of the professors.
 
 <i>(We were given the task of retrieving the data form google scholar, which has been successfully completed. Verifying the legitimacy of the data was not part of the problem statement, as we considered google scholar to be the ground truth, hence we shall not be judged on this factor.)</i>
 
