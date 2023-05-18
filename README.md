@@ -22,7 +22,7 @@
     <li>Home : Gives a brief introduction about our research interests in our department.
     <li>Professors : All the professors in the form of cards, which when clicked, hover over to their respective boxes. These boxes contain info about their research areas, as well as their top 5 most cited papers.
     </li>
-    <li>Insights : Shows some insights that the backend team (Nityam and Shantanu) was able to gather after studying the data. All the insights were represented in the form of interactive charts.
+    <li>Insights : Shows some insights that we were able to gather after studying the data. All the insights were represented in the form of interactive charts.
     <li>Publications : Shows information about all the papers that were published by professors of our department (solo as well as collaborations with other departments).
  </ul> 
 
