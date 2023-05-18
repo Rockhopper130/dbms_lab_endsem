@@ -29,10 +29,13 @@
 
 ## About the Database Formulation
 (Handled by Nityam & Shantanu)
-- Made a primitive database structure and further optimised it to avoid redundance of data. Followed the rules of formulation. 
-- Carefully observed the data and found meaningful insights
-- Wrote SQL queries for the insights.
+- Made a primitive database structure based on data gathered by scraping
+- Identified potential functional dependencies and optimised accordingly to avoid data redundancy. 
+- Followed the rules of formulation to transform the database into BCNF. 
 - Made a final ER diagram of the database.
+- Implemented the database in a MySQL server.
+- Carefully observed the data and found meaningful insights into data which allowed us to quantify the quality as well as quantity of research undertaken by the department.
+- Wrote SQL queries to retrieve the desired information. 
 
 ## About the Data Retrival
 
