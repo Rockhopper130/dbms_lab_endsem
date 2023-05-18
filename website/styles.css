@@ -1,0 +1,488 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #00263f;
+}
+
+body{
+    background-color: #FFFFFF;
+    
+}
+
+.hr{
+    background-color: #00263f;
+}
+
+.vr {
+border-left: 2px solid #00263f;
+height: 50px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* NAVBAR */
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+.testing{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    height: 100vh;
+    width: 15vw;
+    background-color: #0081C9;
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    gap: 8px;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 25px; */
+    border-bottom: white 1px solid;
+    
+}
+.temp_logo{
+    color: #FFFFFF;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.inst_logo{
+    height: 10vh;
+    /* flex : 1; */
+    width : 10vh;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.title h1{
+    height: fit-content;
+}
+
+
+.nav_button{
+    height: 10vh;
+    width: 100%;
+    background-color: #0081C9;
+    border: 0;
+    margin: 0;
+    /* padding: 16px px; */
+    color: #FFFFFF;
+    font-size: 18px;
+    
+}
+
+.nav_button:hover{
+    background-color: #0070ac;
+    border-right: #FFFFFF 5px solid;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav_button.active {
+    display: flex;
+    width: 100%;
+    flex-direction: col;
+    background-color: #006094;
+    border-right: #FFFFFF 5px solid;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabContent{
+    width: 75vw;
+    padding: 4rem 4rem;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* HOME */
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+
+blockquote {
+	font-weight: 100;
+	font-size: 2rem;
+	line-height: 1.4;
+	position: relative;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+/* blockquote:before {
+	content: '“';
+	left: -5rem;
+	top: -2rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -5rem;
+	bottom: 1rem;
+} */
+
+cite {
+	line-height: 3;
+	text-align: left;
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.domain-card{
+    border: #0081C9 1px solid;
+    border-radius: 8px;
+    display : flex;
+    height: 100%; 
+    width : 100%; 
+    align-items : center; 
+    justify-content : center;
+}
+
+.domain-card-content{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    /* gap: 8px; */
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.domain-card-content p{
+    border-bottom : #0081C9 1px solid; 
+    padding: 8px 0px;
+}
+
+.domain-card:hover .domain-card-content {
+    display: flex;
+  }
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* PROFESSORS */
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* 
+.content-professors{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+} */
+
+.card-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px 0;
+}
+
+.prof-card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: left;
+    justify-content: center;
+    padding: 16px 32px;
+    border: #0081C9 1px solid;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.prof-card h4{
+    font-weight: lighter;
+
+}
+
+.prof-card h2{
+    font-size: 20px;
+
+}
+
+.all-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+.prof-info{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 24px;
+}
+.prof-info-card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: #0081C9 1px solid;
+    padding: 24px;
+    border-radius: 8px;
+    height: fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.prof-info-card h4{
+    font-weight: lighter;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* INSIGHTS */
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+.charts{
+    width: 100%;
+    /* height: 40vh; */
+    height: fit-content;
+    /* padding: 16px 48px 16px 32px; */
+    border: #0081C9 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.accordion {
+    background-color: #0081C9;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 14px;
+    border-bottom: white 1px solid;
+}
+
+.active_accordion, .accordion:hover {
+    background-color: #0070ac;
+    margin-bottom: 16px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: row;
+    /* vertical-align: middle; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 60vh;
+    width: 1;
+    gap: 4px;
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: scroll;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel ul{
+    align-self: center;
+    padding: 8px;
+}
+
+.insight-card{
+    border: #0081C9 1px solid;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: fit-content;
+}
+.insight-card li{
+    margin-left: 16px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* PUBLICATIONS */
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+#myInput {
+    /* background-image: url('/css/searchicon.png'); Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 71vw; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+    font-size: 14px;
+  }
+  
+  #myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header2, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* UTILITY */
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+.first:hover{
+    transition: 0.1s;
+    background-color: #FEC8D8;
+    border: #FEC8D8 1px solid;
+    box-shadow: #FEC8D8 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.second:hover{
+    transition: 0.1s;
+    background-color: #FDFD96;
+    border: #FDFD96 1px solid;
+    box-shadow: #FDFD96 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.third:hover{
+    transition: 0.1s;
+    background-color: #E1F3E0;
+    border: #E1F3E0 1px solid;
+    box-shadow: #E1F3E0 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.fourth:hover{
+    transition: 0.1s;
+    background-color: #ffdfba;
+    border: #ffdfba 1px solid;
+    box-shadow: #ffdfba 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.card-wipe:hover{
+    background-color: #e2edf6;
+    border: #e2edf6 1px solid;
+    box-shadow: #e2edf6 0px 2px 8px 0px;
+    box-shadow: none;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* OMITTED */
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+
+.prof_table{
+    width: 100%;
+}
+.prof_table table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 0;
+    border: #0081C9 2px solid;
+}
+
+.prof_table td, .prof_table th{
+    text-align: left;
+    /* border: 1px solid #ddd; */
+    padding: 12px;
+}
+
+.prof_table th{
+    background-color: #0081C9;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.prof_table tr{
+    font-size: 14px;
+}
+
+.prof_table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.prof_table tr:nth-child(odd){
+    background-color: white;
+}
+
+.prof_table tr:hover {
+    background-color: #ddd;
+}
+
+.prof_table .table_head:hover {
+    background-color: #FFFFFF;
+}
+
+.right_cell{
+    width : 10vw;
+}
+
+
+
+
+.blink {
+  animation: blink 0.45s infinite;
+}
+@keyframes blink{
+  to { opacity: .0; }
+}
+.flex {
+	display: flex;
+}
+.header-sub-title {
+  color: #000;
+  font-size: 36px;
+  padding: 0.1em;
+}

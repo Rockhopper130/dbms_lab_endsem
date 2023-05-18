@@ -1,0 +1,21 @@
+
+1. Who are the top 10 professors having the most number of citations?
+SELECT Name, citations_after2018 FROM researchportaldb.professors ORDER BY citations_after2018 DESC LIMIT 10;
+
+2. What are the top 5 areas of research in the department?
+SELECT COUNT(ProfID), Domains FROM researchportaldb.domains GROUP BY Domains ORDER BY COUNT(ProfID) DESC;
+
+3. What are the yearwise citation count of all faculty in the department?
+SELECT SUM(researchportaldb.publications_yearwise.2023) as '2023', SUM(researchportaldb.publications_yearwise.2022) as '2022',SUM(researchportaldb.publications_yearwise.2021) as '2021', SUM(researchportaldb.publications_yearwise.2020) as '2020', SUM(researchportaldb.publications_yearwise.2019) as '2019', SUM(researchportaldb.publications_yearwise.2018) as '2018' FROM researchportaldb.publications_yearwise;
+
+4. Yearwise Citations of Prof X?
+SELECT professors.Name, SUM(researchportaldb.publications_yearwise.2023) as '2023', SUM(researchportaldb.publications_yearwise.2022) as '2022',SUM(researchportaldb.publications_yearwise.2021) as '2021', SUM(researchportaldb.publications_yearwise.2020) as '2020', SUM(researchportaldb.publications_yearwise.2019) as '2019', SUM(researchportaldb.publications_yearwise.2018) as '2018'
+FROM researchportaldb.publications_yearwise, researchportaldb.author_relations, researchportaldb.professors
+WHERE 
+professors.Name = 'Ashish Anand' AND 
+professors.ProfID = author_relations.ProfID AND
+author_relations.PaperID = publications_yearwise.PaperID;
+
+5. What are the 10 most cited papers by professor X in the last 5 years?
+SELECT publications_yearwise.PaperID, publications_yearwise.Title, publications_yearwise.Total_citations FROM professors, author_relations, publications_yearwise WHERE professors.Name = 'Ashish Anand' AND professors.ProfID = author_relations.ProfID AND author_relations.PaperID = publications_yearwise.PaperID ORDER BY publications_yearwise.Total_citations DESC LIMIT 10;
+

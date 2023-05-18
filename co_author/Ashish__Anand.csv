@@ -1,0 +1,87 @@
+year,importer1,importer2,flow1,flow2
+2020,"Dutta A.","Dalmia A.",8.19,4.36
+2020,"Dutta A.","R A.",8.19,4.36
+2020,"Dutta A.","Singh K.K.",8.19,4.36
+2020,"Dutta A.","Anand A.",8.19,4.36
+2020,"Dalmia A.","R A.",8.19,4.36
+2020,"Dalmia A.","Singh K.K.",8.19,4.36
+2020,"Dalmia A.","Anand A.",8.19,4.36
+2020,"R A.","Singh K.K.",8.19,4.36
+2020,"R A.","Anand A.",8.19,4.36
+2020,"Singh K.K.","Anand A.",8.19,4.36
+2018,"Dutta A.","Dubey T.",8.19,4.36
+2018,"Dutta A.","Singh K.K.",8.19,4.36
+2018,"Dutta A.","Anand A.",8.19,4.36
+2018,"Dubey T.","Singh K.K.",8.19,4.36
+2018,"Dubey T.","Anand A.",8.19,4.36
+2018,"Singh K.K.","Anand A.",8.19,4.36
+2020,"Parekh A.","Anand A.",8.19,4.36
+2020,"Parekh A.","Awekar A.",8.19,4.36
+2020,"Anand A.","Awekar A.",8.19,4.36
+2019,Abhishek,"Azad A.P.",8.19,4.36
+2019,Abhishek,"Ganesan B.",8.19,4.36
+2019,Abhishek,"Anand A.",8.19,4.36
+2019,Abhishek,"Awekar A.",8.19,4.36
+2019,"Azad A.P.","Ganesan B.",8.19,4.36
+2019,"Azad A.P.","Anand A.",8.19,4.36
+2019,"Azad A.P.","Awekar A.",8.19,4.36
+2019,"Ganesan B.","Anand A.",8.19,4.36
+2019,"Ganesan B.","Awekar A.",8.19,4.36
+2019,"Anand A.","Awekar A.",8.19,4.36
+2017,Abhishek,"Anand A.",8.19,4.36
+2017,Abhishek,"Awekar A.",8.19,4.36
+2017,"Anand A.","Awekar A.",8.19,4.36
+2020,"Pyne S.","Kumar A.R.",8.19,4.36
+2020,"Pyne S.","Anand A.",8.19,4.36
+2020,"Kumar A.R.","Anand A.",8.19,4.36
+2019,"Malhotra V.M.","Anand A.",8.19,4.36
+2019,"Paul M.","Anand A.",8.19,4.36
+2019,"Paul M.","Pyne S.",8.19,4.36
+2019,"Anand A.","Pyne S.",8.19,4.36
+2018,"Sahu S.K.","Anand A.",8.19,4.36
+2018,"Sahu S.K.","Anand A.",8.19,4.36
+2017,"Manchanda S.","Anand A.",8.19,4.36
+2017,"Raj D.","Sahu S.K.",8.19,4.36
+2017,"Raj D.","Anand A.",8.19,4.36
+2017,"Sahu S.K.","Anand A.",8.19,4.36
+2016,"Sahu S.K.","Anand A.",8.19,4.36
+2015,"Paul M.","Anand R.",8.19,4.36
+2015,"Paul M.","Anand A.",8.19,4.36
+2015,"Anand R.","Anand A.",8.19,4.36
+2020,"Paul M.","Anand A.",8.19,4.36
+2022,"Paul M.","Anand A.",8.19,4.36
+2020,"Paul M.","Anand A.",8.19,4.36
+2020,"Paul M.","Pyne S.",8.19,4.36
+2020,"Anand A.","Pyne S.",8.19,4.36
+2020,"Mishra A.","Anand A.",8.19,4.36
+2020,"Mishra A.","Guha P.",8.19,4.36
+2020,"Anand A.","Guha P.",8.19,4.36
+2020,"Sahu S.K.","Anand A.",8.19,4.36
+2021,"Dutta A.","Singh K.K.",8.19,4.36
+2021,"Dutta A.","Anand A.",8.19,4.36
+2021,"Singh K.K.","Anand A.",8.19,4.36
+2021,"Pyne S.","Anand A.",8.19,4.36
+2021,"Goel V.","Chandak M.",8.19,4.36
+2021,"Goel V.","Anand A.",8.19,4.36
+2021,"Goel V.","Guha P.",8.19,4.36
+2021,"Chandak M.","Anand A.",8.19,4.36
+2021,"Chandak M.","Guha P.",8.19,4.36
+2021,"Anand A.","Guha P.",8.19,4.36
+2020,"Mishra A.","Anand A.",8.19,4.36
+2020,"Mishra A.","Guha P.",8.19,4.36
+2020,"Anand A.","Guha P.",8.19,4.36
+2017,"Rahul P.V.S.S.","Sahu S.K.",8.19,4.36
+2017,"Rahul P.V.S.S.","Anand A.",8.19,4.36
+2017,"Sahu S.K.","Anand A.",8.19,4.36
+2016,"Sahu S.K.","Anand A.",8.19,4.36
+2016,"Sahu S.K.","Oruganty K.",8.19,4.36
+2016,"Sahu S.K.","Gattu M.",8.19,4.36
+2016,"Anand A.","Oruganty K.",8.19,4.36
+2016,"Anand A.","Gattu M.",8.19,4.36
+2016,"Oruganty K.","Gattu M.",8.19,4.36
+2022,"Parekh A.","Anand A.",8.19,4.36
+2022,"Parekh A.","Awekar A.",8.19,4.36
+2022,"Anand A.","Awekar A.",8.19,4.36
+2015,"Muneeb T.H.","Sahu S.K.",8.19,4.36
+2015,"Muneeb T.H.","Anand A.",8.19,4.36
+2015,"Sahu S.K.","Anand A.",8.19,4.36

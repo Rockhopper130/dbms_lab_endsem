@@ -1,0 +1,59 @@
+year,importer1,importer2,flow1,flow2
+2014,"Thakur R.","Kumar A.",8.19,4.36
+2014,"Thakur R.","Bose B.",8.19,4.36
+2014,"Thakur R.","Panda D.",8.19,4.36
+2014,"Thakur R.","Saikia D.",8.19,4.36
+2014,"Thakur R.","Chattopadhyay P.",8.19,4.36
+2014,"Thakur R.","Mukherjee A.",8.19,4.36
+2014,"Kumar A.","Bose B.",8.19,4.36
+2014,"Kumar A.","Panda D.",8.19,4.36
+2014,"Kumar A.","Saikia D.",8.19,4.36
+2014,"Kumar A.","Chattopadhyay P.",8.19,4.36
+2014,"Kumar A.","Mukherjee A.",8.19,4.36
+2014,"Bose B.","Panda D.",8.19,4.36
+2014,"Bose B.","Saikia D.",8.19,4.36
+2014,"Bose B.","Chattopadhyay P.",8.19,4.36
+2014,"Bose B.","Mukherjee A.",8.19,4.36
+2014,"Panda D.","Saikia D.",8.19,4.36
+2014,"Panda D.","Chattopadhyay P.",8.19,4.36
+2014,"Panda D.","Mukherjee A.",8.19,4.36
+2014,"Saikia D.","Chattopadhyay P.",8.19,4.36
+2014,"Saikia D.","Mukherjee A.",8.19,4.36
+2014,"Chattopadhyay P.","Mukherjee A.",8.19,4.36
+2017,"Agarwal M.","Sahoo A.",8.19,4.36
+2017,"Agarwal M.","Bose B.",8.19,4.36
+2017,"Sahoo A.","Bose B.",8.19,4.36
+2019,"Agarwal M.","Mondal T.",8.19,4.36
+2019,"Agarwal M.","Bose B.",8.19,4.36
+2019,"Mondal T.","Bose B.",8.19,4.36
+2019,"Chandrasekaran K.","Bose B.",8.19,4.36
+2015,"Loying P.","Manhas J.",8.19,4.36
+2015,"Loying P.","Sen S.",8.19,4.36
+2015,"Loying P.","Bose B.",8.19,4.36
+2015,"Manhas J.","Sen S.",8.19,4.36
+2015,"Manhas J.","Bose B.",8.19,4.36
+2015,"Sen S.","Bose B.",8.19,4.36
+2014,"Kumar A.","Das G.",8.19,4.36
+2014,"Kumar A.","Bose B.",8.19,4.36
+2014,"Das G.","Bose B.",8.19,4.36
+2012,"Das A.","Loying P.",8.19,4.36
+2012,"Das A.","Bose B.",8.19,4.36
+2012,"Loying P.","Bose B.",8.19,4.36
+2020,"Devaraj V.","Bose B.",8.19,4.36
+2020,"Devaraj V.","Bose B.",8.19,4.36
+2019,"Devaraj V.","Bose B.",8.19,4.36
+2017,Dutta,Poulami,8.19,4.36
+2017,Dutta,Devaraj,8.19,4.36
+2017,Dutta,Vimalathithan,8.19,4.36
+2017,Dutta,Bose,8.19,4.36
+2017,Dutta,Biplab,8.19,4.36
+2017,Poulami,Devaraj,8.19,4.36
+2017,Poulami,Vimalathithan,8.19,4.36
+2017,Poulami,Bose,8.19,4.36
+2017,Poulami,Biplab,8.19,4.36
+2017,Devaraj,Vimalathithan,8.19,4.36
+2017,Devaraj,Bose,8.19,4.36
+2017,Devaraj,Biplab,8.19,4.36
+2017,Vimalathithan,Bose,8.19,4.36
+2017,Vimalathithan,Biplab,8.19,4.36
+2017,Bose,Biplab,8.19,4.36
