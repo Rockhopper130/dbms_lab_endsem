@@ -27,13 +27,32 @@
  </ul> 
 
 
-## About the Data Retrieval
+## About the Database Formulation
+(Handled by Nityam & Shantanu)
+- Made a primitive database structure and further optimised it to avoid redundance of data. Followed the rules of formulation. 
+- Carefully observed the data and found meaningful insights
+- Wrote SQL queries for the insights.
+- Made a final ER diagram of the database.
 
- - ER diagram goes here.
+## About the Data Retrival
 
-## About the Web - Scraping
+Parsing Methodology: (Handled by Varun)
 
+- Visit MFSDSAI website to get basic data of all professors
+- Search all professors on google scholar
+- Extract basic data from google scholar profile
+- Visit the link of each paper and extract publication information and basic details
+- Filled the null value gaps from IEEE/IRINS
 
+<i>(We were given the task of retrieving the data form google scholar, which has been successfully completed. Verifying the legitimacy of the data was not part of the problem statement, as we considered google scholar to be the ground truth, hence we shall not be judged on this factor.)</i>
+
+Wrote Training code (using SetFit, for few shot fine tuning) for a text classification model that classifies and assigns a tag/ label to the paper based on a smaller clustered set of the faculty domains. 
+
+Clustered the approx. 50 domains into a smaller set of 20 clusters and started data annotation for the fine tuning process.
+
+Aditya developed an end-to-end process and established a pipeline to transform scraped data into an SQL database. Also worked on data cleaning.
+
+<hr>
 
 ## Steps to run
 
@@ -41,3 +60,16 @@
  - In the "htdocs" folder, clone this repository.
  - Start the manager-osx.app (for MacOS users).
  - Head to this link (http://localhost/DBMS-Lab/website/index.php)
+
+<hr>
+
+## Summary
+ - Retireved data from google scholar
+ - Cleaned the data
+ - Formulated the SQL database
+ - Made a pipeline to transport the data to SQL database
+ - Made a complete and easy to use frontend with multiple features
+ - Queried the data to gather insights
+ - Displayed the insights on the website
+ - Made a README.md :)
+ <hr>
