@@ -14,7 +14,9 @@
 
 ## About the Frontend
 
- - The entire code was written form scratch by Nishchay without using any sort of template or external help (other than some JS snippets from w3schools). Charts were interactive and easy to use. This was done with the help of a library called chart.js
+(Handled by Nishchay)
+
+ - The entire code was written form scratch without using any sort of template or external help (other than some JS snippets from w3schools). Charts were interactive and easy to use. This was done with the help of a library called chart.js
  - The UI/UX , color scheme, fonts, wire-framing, etc was thought about immensely, while writing the code in PHP, CSS, JS.
  - Micro-animations were also implemented to give the website a more fluidic feel.
 
