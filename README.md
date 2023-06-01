@@ -61,8 +61,6 @@ Parsing Methodology: (Handled by Varun)
 - Filled the null value gaps from IEEE/IRINS
   - Any missing data from the initial scraping pipeline is recovered from IEEE/IRINS along with DOI data as well as Co-Author Networks of the professors.
 
-<i>(We were given the task of retrieving the data form google scholar, which has been successfully completed. Verifying the legitimacy of the data was not part of the problem statement, as we considered google scholar to be the ground truth, hence we shall not be judged on this factor.)</i>
-
 Wrote Training code (using SetFit, for few shot fine tuning) for a text classification model that classifies and assigns a tag/ label to the paper based on a smaller clustered set of the faculty domains. 
 
 Clustered the approx. 50 domains into a smaller set of 20 clusters and started data annotation for the fine tuning process.
