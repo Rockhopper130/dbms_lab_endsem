@@ -10,6 +10,10 @@
 
 </ul>
 
+
+https://github.com/Rockhopper130/dbms_lab_endsem/assets/95133511/77b79249-55a3-47b6-b83c-b7098aa2880a
+
+
 <br>
 
 ## About the Frontend
@@ -74,7 +78,7 @@ Aditya developed an end-to-end process and established a pipeline to transform s
  - If you haven't installed XAMPP, please install it first.
  - In the "htdocs" folder, clone this repository.
  - Start the manager-osx.app (for MacOS users).
- - Head to this link (http://localhost/DBMS-Lab/website/index.php)
+ - Head to this link (http://localhost/dbms_lab_endsem/website/index.php)
 
 <hr>
 
@@ -84,7 +88,7 @@ Aditya developed an end-to-end process and established a pipeline to transform s
  - Formulated the SQL database
  - Made a pipeline to transport the data to SQL database
  - Made a complete and easy to use frontend with multiple features
- - Queried the data to gather insights
+ - Queried the data to gather insights through PHP
  - Displayed the insights on the website
  - Made a README.md :)
  <hr>
