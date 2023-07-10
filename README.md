@@ -18,8 +18,6 @@ https://github.com/Rockhopper130/dbms_lab_endsem/assets/95133511/77b79249-55a3-4
 
 ## About the Frontend
 
-(Handled by Nishchay)
-
  - The entire code was written form scratch without using any sort of template or external help (other than some JS snippets from w3schools). Charts were interactive and easy to use. This was done with the help of a library called chart.js
  - The UI/UX , color scheme, fonts, wire-framing, etc was thought about immensely, while writing the code in PHP, CSS, JS.
  - Micro-animations were also implemented to give the website a more fluidic feel.
@@ -36,7 +34,7 @@ https://github.com/Rockhopper130/dbms_lab_endsem/assets/95133511/77b79249-55a3-4
 ## About the Database Formulation & Implementation
 
 ### Database Formulation
-(Handled by Nityam & Shantanu)
+
 - Made a primitive database structure based on data gathered by scraping
 - Identified potential functional dependencies and optimised accordingly to avoid data redundancy. 
 - Followed the rules of formulation to transform the database into BCNF. 
@@ -48,15 +46,13 @@ https://github.com/Rockhopper130/dbms_lab_endsem/assets/95133511/77b79249-55a3-4
 ![ER Diagram](https://raw.githubusercontent.com/Rockhopper130/dbms_lab_endsem/main/ER_diagram.png)
 
 ### Database Implementation
-(Handled by Aditya)
+
 - Used python to clean data collected in parsing step
 - Implemented the database creation and updation steps, using mysql connector the sql_code.ipynb notebook contains functions for creating the entire database(with all relations, constraints and keys built-in).
 - After creating the database, the sql_code.ipynb takes all the scraped data (in form of csv files for each prof), it reads all the data and updates it into the database. The updation is done such that we ensure that all (participation) constraints are held.
 - The notebook is end-to-end code to create the SQL database and read all the scraped data and update it into the database. After this queries can be performed on the database created by the notebook
 
-## About the Data Retrival
-
-Parsing Methodology: (Handled by Varun)
+## About the Data Retrieval
 
 - Visit MFSDSAI website to get basic data of all professors
   - Visited all Faculty pages on the MFSDSAI website to extract faculty the provided faculty details.
@@ -68,11 +64,9 @@ Parsing Methodology: (Handled by Varun)
 - Filled the null value gaps from IEEE/IRINS
   - Any missing data from the initial scraping pipeline is recovered from IEEE/IRINS along with DOI data as well as Co-Author Networks of the professors.
 
-Wrote Training code (using SetFit, for few shot fine tuning) for a text classification model that classifies and assigns a tag/ label to the paper based on a smaller clustered set of the faculty domains. 
+Wrote Training code (using SetFit, for few shot fine tuning) for a text classification model that classifies and assigns a tag/label to the paper based on a smaller clustered set of the faculty domains. 
 
-Clustered the approx. 50 domains into a smaller set of 20 clusters and started data annotation for the fine tuning process.
-
-Aditya developed an end-to-end process and established a pipeline to transform scraped data into an SQL database. Also worked on data cleaning.
+Also clustered the approx. 50 domains into a smaller set of 20 clusters and started data annotation for the fine tuning process.
 
 <hr>
 
@@ -93,5 +87,5 @@ Aditya developed an end-to-end process and established a pipeline to transform s
  - Made a complete and easy to use frontend with multiple features
  - Queried the data to gather insights through PHP
  - Displayed the insights on the website
- - Made a README.md :)
+ - Made a README.md
  <hr>
