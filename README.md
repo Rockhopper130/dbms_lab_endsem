@@ -42,7 +42,10 @@ https://github.com/Rockhopper130/dbms_lab_endsem/assets/95133511/77b79249-55a3-4
 - Followed the rules of formulation to transform the database into BCNF. 
 - Made a final ER diagram of the database.
 - Carefully observed the data and found meaningful insights into data which allowed us to quantify the quality as well as quantity of research undertaken by the department.
-- Wrote SQL queries to retrieve the desired information. 
+- Wrote SQL queries to retrieve the desired information.
+
+### ER Diagram
+![ER Diagram](https://raw.githubusercontent.com/Rockhopper130/dbms_lab_endsem/main/ER_diagram.png)
 
 ### Database Implementation
 (Handled by Aditya)
